@@ -1,0 +1,38 @@
+/* media-quary for header */
+@media (max-width: 800px){
+    .ma{
+        display: none;
+    }
+}
+@media (max-width: 550px){
+    .mb{
+        display: none;
+    }
+}
+@media (max-width: 550px){
+    .mc{
+        margin-inline: 2rem;
+    }
+}
+
+/* @media(min-width: 500px){
+    .md{
+        background: none;
+    }
+} */
+@media(max-width: 500px){
+    .me{
+        margin-right: 2rem;
+    }
+}
+/* Heading display property */
+@media (min-width: 600px){
+    .mf{
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    .mg{
+        display: none;
+    }
+}

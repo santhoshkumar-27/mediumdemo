@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+body{
+    margin: 0;
+}
+button{
+    border: 1px solid black;
+}
+html{
+    font-size: 16px;
+    font-family: serif;
+}
+svg{
+    width: 10rem;
+}
+header{
+    border-bottom: 1px solid black;
+}
+/* flex-start */
+.a{
+    display: flex;
+}
+.b{
+    flex-direction: row;
+}
+.c{
+    flex-direction: column;
+}
+.d{
+    justify-content: center;
+}
+.e{
+    align-items: center;
+}
+.f{
+    justify-content: space-between;
+}
+/* flex-ends */
+.g{
+    display: block;
+}
+.i{
+    padding-block: 1.5rem
+}
+.j{
+    margin-inline: 4rem;
+}
+.k{
+    max-width: 82rem;
+}
+.l{
+    min-width: 0;
+}
+.m{
+    width: 100%;
+}
+.n{
+    position: fixed;
+}
+.o{
+    top: 0;
+}
+.p{
+    left:0;
+}
+.q{
+    right: 0;
+}
+.r{
+    background-color: #c4e2ff;
+}
+.s{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.t{
+    text-align: center;
+}
+.u{
+    text-decoration: none;
+}
+.v{
+    color: black
+}
+.w{
+    text-transform: capitalize;
+}
+.x{
+    margin-right: 1.25rem;
+}
+.y{
+    height: 5rem;
+}
+.z{
+    padding-inline: 1rem;
+}
+.ba{
+    padding-block: 0.3125rem;
+}
+.bb{
+    border-radius: 1.875em;
+}
+.bc{
+    font-size: 1rem;
+}
+.bd{
+    background-color: black;
+}
+.be{
+    color: rgb(255, 255, 255);
+}
+.bf{
+    font-weight: 400;
+}
+.bg{
+    visibility: visible;
+}
+/* background-color */
+.bh{
+    background: url('../image/back/double_qotate.png');
+}
+.bi{
+    background-repeat: no-repeat;
+}
+.bj{
+    background-size: 21.4375rem 21.875rem;
+}
+.bk{
+    justify-content: flex-start;
+}
+.bl{
+    background-position: bottom 0px right 0px;;
+}
+.bm{
+    padding-top: 3rem;
+}
+.bn{
+    padding-bottom: 2rem;
+}
+.bo{
+    width: 100%;
+}
+.bp{
+    height: 50vh;
+}
+.bq{
+    height: inherit;
+}
+.br{
+    width: 34.375rem;
+}
+.bs{
+    line-height: 4.625rem;
+}
+.bt{
+    font-size: 4.375rem;
+}
+.bu{
+    letter-spacing: -0.05em;
+}
+.bv{
+    font-style: normal;
+}
+.bw{
+    width: 80%;
+}
+.bx{
+    margin-bottom: 1.25rem;
+}
+.by{
+    line-height: 2rem;
+}
+.bz{
+    color: rgba(0, 0, 0, 0.5)
+}
+.ca{
+    padding-inline: 1.25rem;
+}
+.cb{
+    padding-block: 1rem;
+}
+.cc{
+    color: black;
+}

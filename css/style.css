@@ -11,7 +11,8 @@ h5,
 h6,
 p,
 div,
-body{
+body,
+span{
     margin: 0;
 }
 button{
@@ -21,7 +22,7 @@ html{
     font-size: 16px;
     font-family: serif;
 }
-svg{
+a > svg{
     width: 10rem;
 }
 header{
@@ -57,7 +58,7 @@ header{
     margin-inline: 4rem;
 }
 .k{
-    max-width: 82rem;
+    max-width: 83rem;
 }
 .l{
     min-width: 0;
@@ -191,4 +192,95 @@ header{
 }
 .cc{
     color: black;
+}
+.cd{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ce{
+    border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+}
+.cf{
+    padding-top: 2.5rem;
+}
+.cg{
+    padding-bottom: 1rem;
+}
+.ch{
+    margin-bottom: 1.5rem;
+}
+.ci{
+    margin-right: 1rem;
+}
+.cj{
+    text-transform: uppercase;
+}
+.ck{
+    font-size: 1rem;
+}
+/* flex */
+.cl{
+    flex-wrap: wrap;
+}
+.cm{
+    align-items: flex-start;
+}
+.cn{
+    max-width: 50%;
+}
+.co{
+    padding-right: 1.25rem;
+}
+.cp{
+    padding-left: 1.25rem;
+}
+.cq{
+    margin-right: 1rem;
+}
+.cr{
+    font-size: 2rem;
+}
+.cs{
+ position: relative;  
+}
+.ct{
+    top: -10px;
+}
+.cu{
+    opacity: 0.5;
+}
+.cv{
+    margin-right: 0.625rem;
+}
+.cw{
+    border-radius: 50%;
+}
+.cx{
+    margin-bottom: 0.5rem;
+}
+.cy{
+    align-items:baseline;
+}
+.cz{
+    opacity: 0.8;
+}
+.da{
+    margin-inline: 0.3rem;
+}
+.db{
+    margin-bottom: 1rem;
+}
+.dc{
+    max-width: 33.3333%;
+}
+.de{
+    font-size: 1rem;
+}
+.df{
+    height: 1.5rem;
+}
+.dg{
+    font-size: 16px;
+}
+.dh{
+    max-width: 80%;
 }

@@ -58,3 +58,10 @@
     }
 }
 /* tablet mode end */
+
+/* discover for mobile mode */
+@media (min-width: 769px){
+    .mm{
+        display: none;
+    }
+}

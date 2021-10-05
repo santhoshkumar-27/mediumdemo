@@ -201,7 +201,7 @@ header {
   border-top: 1px solid rgba(214, 209, 209, 0.733);
 }
 .ce {
-  border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+  border-bottom: 1px solid rgba(85, 79, 79, 0.5);
 }
 .cf {
   padding-top: 2.5rem;
@@ -302,4 +302,32 @@ header {
 }
 .dm{
     z-index: -3;
+}
+/* Hidden box */
+.dn{
+    padding-top: 2rem;
+}
+.do{
+    padding-bottom: 1rem;
+}
+.dp{
+    margin-bottom: 1rem;
+}
+.dq{
+    border: 1px solid rgb(170, 168, 168);
+}
+.dr{
+    font-weight: 800;
+}
+.ds{
+    width: fit-content;
+}
+.dt{
+    padding-block: 0.5rem;
+}
+.du{
+    padding-inline: 1rem;
+}
+.dv{
+    border-radius: 5px;
 }

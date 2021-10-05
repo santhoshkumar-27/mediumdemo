@@ -1,7 +1,7 @@
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
+*::after {
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -12,275 +12,294 @@ h6,
 p,
 div,
 body,
-span{
-    margin: 0;
+span {
+  margin: 0;
 }
-button{
-    border: 1px solid black;
+img,
+a {
+  display: block;
 }
-html{
-    font-size: 16px;
-    font-family: serif;
+button {
+  border: 1px solid black;
 }
-a > svg{
-    width: 10rem;
+html {
+  font-size: 16px;
+  font-family: serif;
 }
-header{
-    border-bottom: 1px solid black;
+a > svg {
+  width: 10rem;
+}
+header {
+  border-bottom: 1px solid black;
 }
 /* flex-start */
-.a{
-    display: flex;
+.a {
+  display: flex;
 }
-.b{
-    flex-direction: row;
+.b {
+  flex-direction: row;
 }
-.c{
-    flex-direction: column;
+.c {
+  flex-direction: column;
 }
-.d{
-    justify-content: center;
+.d {
+  justify-content: center;
 }
-.e{
-    align-items: center;
+.e {
+  align-items: center;
 }
-.f{
-    justify-content: space-between;
+.f {
+  justify-content: space-between;
 }
 /* flex-ends */
-.g{
-    display: block;
+.g {
+  display: block;
 }
-.i{
-    padding-block: 1.5rem
+.i {
+  padding-block: 1.5rem;
 }
-.j{
-    margin-inline: 4rem;
+.j {
+  margin-inline: 4rem;
 }
-.k{
-    max-width: 83rem;
+.k {
+  max-width: 84rem;
 }
-.l{
-    min-width: 0;
+.l {
+  min-width: 0;
 }
-.m{
-    width: 100%;
+.m {
+  width: 100%;
 }
-.n{
-    position: fixed;
+.n {
+  position: fixed;
 }
-.o{
-    top: 0;
+.o {
+  top: 0;
 }
-.p{
-    left:0;
+.p {
+  left: 0;
 }
-.q{
-    right: 0;
+.q {
+  right: 0;
 }
-.r{
-    background-color: #c4e2ff;
+.r {
+  background-color: #c4e2ff;
 }
-.s{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+.s {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-.t{
-    text-align: center;
+.t {
+  text-align: center;
 }
-.u{
-    text-decoration: none;
+.u {
+  text-decoration: none;
 }
-.v{
-    color: black
+.v {
+  color: black;
 }
-.w{
-    text-transform: capitalize;
+.w {
+  text-transform: capitalize;
 }
-.x{
-    margin-right: 1.25rem;
+.x {
+  margin-right: 1.25rem;
 }
-.y{
-    height: 5rem;
+.y {
+  height: 5rem;
 }
-.z{
-    padding-inline: 1rem;
+.z {
+  padding-inline: 1rem;
 }
-.ba{
-    padding-block: 0.3125rem;
+.ba {
+  padding-block: 0.3125rem;
 }
-.bb{
-    border-radius: 1.875em;
+.bb {
+  border-radius: 1.875em;
 }
-.bc{
-    font-size: 1rem;
+.bc {
+  font-size: 1rem;
 }
-.bd{
-    background-color: black;
+.bd {
+  background-color: black;
 }
-.be{
-    color: rgb(255, 255, 255);
+.be {
+  color: rgb(255, 255, 255);
 }
-.bf{
-    font-weight: 400;
+.bf {
+  font-weight: 400;
 }
-.bg{
-    visibility: visible;
+.bg {
+  visibility: visible;
 }
 /* background-color */
-.bh{
-    background: url('../image/back/double_qotate.png');
+.bh {
+  background: url("../image/back/double_qotate.png");
 }
-.bi{
-    background-repeat: no-repeat;
+.bi {
+  background-repeat: no-repeat;
 }
-.bj{
-    background-size: 21.4375rem 21.875rem;
+.bj {
+  background-size: 21.4375rem 21.875rem;
 }
-.bk{
-    justify-content: flex-start;
+.bk {
+  justify-content: flex-start;
 }
-.bl{
-    background-position: bottom 0px right 0px;;
+.bl {
+  background-position: bottom 0px right 0px;
 }
-.bm{
-    padding-top: 3rem;
+.bm {
+  padding-top: 3rem;
 }
-.bn{
-    padding-bottom: 2rem;
+.bn {
+  padding-bottom: 2rem;
 }
-.bo{
-    width: 100%;
+.bo {
+  width: 100%;
 }
-.bp{
-    height: 50vh;
+.bp {
+  height: 50vh;
 }
-.bq{
-    height: inherit;
+.bq {
+  height: inherit;
 }
-.br{
-    width: 34.375rem;
+.br {
+  width: 34.375rem;
 }
-.bs{
-    line-height: 4.625rem;
+.bs {
+  line-height: 4.625rem;
 }
-.bt{
-    font-size: 4.375rem;
+.bt {
+  font-size: 4.375rem;
 }
-.bu{
-    letter-spacing: -0.05em;
+.bu {
+  letter-spacing: -0.05em;
 }
-.bv{
-    font-style: normal;
+.bv {
+  font-style: normal;
 }
-.bw{
-    width: 80%;
+.bw {
+  width: 80%;
 }
-.bx{
-    margin-bottom: 1.25rem;
+.bx {
+  margin-bottom: 1.25rem;
 }
-.by{
-    line-height: 2rem;
+.by {
+  line-height: 2rem;
 }
-.bz{
-    color: rgba(0, 0, 0, 0.5)
+.bz {
+  color: rgba(0, 0, 0, 0.5);
 }
-.ca{
-    padding-inline: 1.25rem;
+.ca {
+  padding-inline: 1.25rem;
 }
-.cb{
-    padding-block: 1rem;
+.cb {
+  padding-block: 1rem;
 }
-.cc{
-    color: black;
+.cc {
+  color: black;
 }
-.cd{
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+.cd {
+  border-top: 1px solid rgba(214, 209, 209, 0.733);
 }
-.ce{
-    border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+.ce {
+  border-bottom: 1px solid rgba(230, 230, 230, 0.5);
 }
-.cf{
-    padding-top: 2.5rem;
+.cf {
+  padding-top: 2.5rem;
 }
-.cg{
-    padding-bottom: 1rem;
+.cg {
+  padding-bottom: 1rem;
 }
-.ch{
-    margin-bottom: 1.5rem;
+.ch {
+  margin-bottom: 1.5rem;
 }
-.ci{
-    margin-right: 1rem;
+.ci {
+  margin-right: 1rem;
 }
-.cj{
-    text-transform: uppercase;
+.cj {
+  text-transform: uppercase;
 }
-.ck{
-    font-size: 1rem;
+.ck {
+  font-size: 1rem;
 }
 /* flex */
-.cl{
-    flex-wrap: wrap;
+.cl {
+  flex-wrap: wrap;
 }
-.cm{
-    align-items: flex-start;
+.cm {
+  align-items: flex-start;
 }
-.cn{
-    max-width: 50%;
+.cn {
+  max-width: 50%;
 }
-.co{
-    padding-right: 1.25rem;
+.co {
+  padding-right: 1.25rem;
 }
-.cp{
-    padding-left: 1.25rem;
+.cp {
+  padding-left: 1.25rem;
 }
-.cq{
-    margin-right: 1rem;
+.cq {
+  margin-right: 1rem;
 }
-.cr{
-    font-size: 2rem;
+.cr {
+  font-size: 2rem;
 }
-.cs{
- position: relative;  
+.cs {
+  position: relative;
 }
-.ct{
-    top: -10px;
+.ct {
+  top: -10px;
 }
-.cu{
-    opacity: 0.5;
+.cu {
+  opacity: 0.5;
 }
-.cv{
-    margin-right: 0.625rem;
+.cv {
+  margin-right: 0.625rem;
 }
-.cw{
-    border-radius: 50%;
+.cw {
+  border-radius: 50%;
 }
-.cx{
-    margin-bottom: 0.5rem;
+.cx {
+  margin-bottom: 0.5rem;
 }
-.cy{
-    align-items:baseline;
+.cy {
+  align-items: baseline;
 }
-.cz{
-    opacity: 0.8;
+.cz {
+  opacity: 0.8;
 }
-.da{
-    margin-inline: 0.3rem;
+.da {
+  margin-inline: 0.3rem;
 }
-.db{
-    margin-bottom: 1rem;
+.db {
+  margin-bottom: 0.5rem;
 }
-.dc{
-    max-width: 33.3333%;
+.dc {
+  max-width: 33.3333%;
 }
-.de{
-    font-size: 1rem;
+.de {
+  font-size: 1rem;
 }
-.df{
-    height: 1.5rem;
+.df {
+  height: 1.5rem;
 }
-.dg{
-    font-size: 16px;
+.dg {
+  font-size: 2rem;
 }
-.dh{
-    max-width: 80%;
+.dh {
+  max-width: 80%;
+}
+.di {
+  padding-top: 5px;
+}
+.dj {
+  padding-inline: 5px;
+}
+.dk {
+  margin-left: 5px;
+}
+.dl {
+  font-size: 0.8em;
+}
+.dm{
+    z-index: -3;
 }

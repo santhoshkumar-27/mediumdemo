@@ -36,3 +36,25 @@
         display: none;
     }
 }
+@media (max-width: 700px){
+    .mi{
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px){
+    .mj{
+        max-width: 100%;
+    }
+}
+/* tablet mode for trending on medium */
+@media(max-width: 768px){
+    .mk{
+        flex-direction: column;
+    }
+}
+@media(max-width: 768px){
+    .ml{
+       max-width: 100%;
+    }
+}
+/* tablet mode end */

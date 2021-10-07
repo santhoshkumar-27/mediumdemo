@@ -24,7 +24,7 @@ button {
 }
 html {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a > svg {
   width: 10rem;
@@ -300,34 +300,137 @@ header {
 .dl {
   font-size: 0.9em;
 }
-.dm{
-    z-index: -3;
+.dm {
+  z-index: -3;
 }
 /* Hidden box */
-.dn{
-    padding-top: 2rem;
+.dn {
+  padding-top: 2rem;
 }
-.do{
-    padding-bottom: 1rem;
+.do {
+  padding-bottom: 1rem;
 }
-.dp{
-    margin-bottom: 1rem;
+.dp {
+  margin-bottom: 1rem;
 }
-.dq{
-    border: 1px solid rgb(170, 168, 168);
+.dq {
+  border: 1px solid rgb(170, 168, 168);
 }
-.dr{
-    font-weight: 800;
+.dr {
+  font-weight: 800;
 }
-.ds{
-    width: fit-content;
+.ds {
+  width: fit-content;
 }
-.dt{
-    padding-block: 0.5rem;
+.dt {
+  padding-block: 0.5rem;
 }
-.du{
-    padding-inline: 1rem;
+.du {
+  padding-inline: 1rem;
 }
-.dv{
-    border-radius: 5px;
+.dv {
+  border-radius: 5px;
 }
+/*Grid starts*/
+.dw{
+  display: grid;
+}
+.dx{
+  grid-template-columns: repeat(8, 1fr) repeat(4, minmax(48px, 1fr));
+}
+.dy{
+  grid-template-rows: 1fr;
+}
+/* grid end */
+.dz{
+  height: 100%;
+}
+.ea{
+  object-fit: cover;
+}
+.eb{
+  margin-left: 1rem;
+}
+.ec{
+  padding-right: 5px;
+}
+.ed{
+  font-weight: 100;
+}
+.ef{
+  font-size: 15px
+}
+.eg{
+  opacity: 0.7;
+}
+.eh{
+  padding-top: 12px;
+}
+.ei{
+  width: 25px
+}
+.ej{
+  padding-top: 3px
+}
+.ek{
+  background-color: rgba(235, 218, 218, 0.5);
+}
+.ek:hover{
+  background-color: rgb(221, 217, 194);
+}
+.el{
+  padding-inline: 4px;
+  padding-block: 5px;
+}
+.em{
+  border-radius: 25%;
+}
+.en{
+  font-size: 13px;
+}
+.eo{
+  overflow: hidden;
+}
+.ep{
+  text-overflow: ellipsis;
+}
+.eq{
+  font-size: 16px;
+}
+.er{
+  font-size: 23px
+}
+.es{
+  flex: 1 1 auto;
+}
+.et{
+  position: sticky;
+}
+.eu{
+top: 105px;
+}
+.ev{
+  padding: 24px 0;
+}
+.ew{
+  padding: 10px;
+}
+.ex{
+  border-radius: 10px
+}
+.ey{
+  font-size: 14px;
+}
+.ez{
+  line-height: 20px;
+}
+.fa{
+  margin-bottom: 8px;
+  margin-right: 23px;
+}
+/* .za{
+  background-color: lightblue;
+}
+.zb{
+  background-color: lightgreen;
+} */
